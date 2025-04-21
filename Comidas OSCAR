@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Sabor Perfecto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        main {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        .menu-item {
+            margin: 1rem 0;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-between;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #28a745;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        a:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>El Sabor Perfecto</h1>
+        <p>¡Disfruta nuestras delicias al mejor precio!</p>
+    </header>
+    <main>
+        <h2>Menú</h2>
+        <div class="menu-item">
+            <span>Pizza</span>
+            <span>$1200</span>
+        </div>
+        <div class="menu-item">
+            <span>Sánguches Completos</span>
+            <span>$1000</span>
+        </div>
+        <div class="menu-item">
+            <span>Empanadas (docena)</span>
+            <span>$1500</span>
+        </div>
+        <div class="menu-item">
+            <span>Milanesas Napolitana</span>
+            <span>$1800</span>
+        </div>
+        <div class="menu-item">
+            <span>Papas Fritas</span>
+            <span>$700</span>
+        </div>
+        <p style="text-align: center;">
+            <a href="https://wa.me/XXXXXXXXXXX" target="_blank">Haz tu pedido por WhatsApp</a>
+        </p>
+    </main>
+</body>
+</html>
